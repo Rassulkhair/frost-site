@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Frost - Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.min.css" integrity="sha512-06CZo7raVnbbD3BlY8/hGUoUCuhk8sTdVGV3m3nuh9i2R+UmkLbLRTE/My8TuJ3ALbDulhBObJQWtOUt0mXzNQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js" integrity="sha512-j+F4W//4Pu39at5I8HC8q2l1BNz4OF3ju39HyWeqKQagW6ww3ZF9gFcu8rzUbyTDY7gEo/vqqzGte0UPpo65QQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <h1 class="logo">frost</h1>
+        <table class="contacts">
+            <tbody>
+            <tr>
+                <td>г. Нур-Султан</td>
+                <td>+7 (777) 777-77-77</td>
+            </tr>
+            <tr>
+                <td>г. Алматы</td>
+                <td>+7 (777) 777-77-77</td>
+            </tr>
+            </tbody>
+        </table>
+        <form action="#" method="get" class="search-form">
+            <input type="text" placeholder="Поиск по каталогу..." aria-label="Поиск">
+            <button type="submit">
+                <img src="/images/search.svg" alt="Иконка поиска">
+            </button>
+        </form>
+        <div class="auth">
+            <a href="#">Вход в личный кабинет</a>
+            <a href="#">Зарегистрироваться</a>
+        </div>
+        <a href="#" class="cart-btn">
+            <img src="/images/cart.svg" alt="Иконка корзины">
+            <div class="count">2</div>
+        </a>
+    </div>
+</div>
+<div class="slider-container">
+    <button class="prev">
+        <img src="/images/arrow-left.svg" height="60" alt="Стрелка влево">
+    </button>
+    <div class="slider-content">
+        <div class="slide">
+            <img src="/images/slide-01.png" alt="Изображение слайда">
+            <div class="slide-content container">
+                <div class="main-text">Компрессоры для</div>
+                <div class="sub-text">— легковых автомобилей</div>
+                <div class="sub-text">— грузовых автомобилей</div>
+                <div class="sub-text">— спецтехники</div>
+                <div class="sub-text">— комбайнов</div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="/images/slide-02.png" alt="Изображение слайда">
+            <div class="slide-content container">
+                <div class="main-text">Компрессоры для</div>
+                <div class="sub-text">— легковых автомобилей</div>
+                <div class="sub-text">— грузовых автомобилей</div>
+                <div class="sub-text">— спецтехники</div>
+                <div class="sub-text">— комбайнов</div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="/images/slide-03.png" alt="Изображение слайда">
+            <div class="slide-content container">
+                <div class="main-text">Компрессоры для</div>
+                <div class="sub-text">— легковых автомобилей</div>
+                <div class="sub-text">— грузовых автомобилей</div>
+                <div class="sub-text">— спецтехники</div>
+                <div class="sub-text">— комбайнов</div>
+            </div>
+        </div>
+    </div>
+    <button class="next">
+        <img src="/images/arrow-right.svg" alt="Стрелка вправо">
+    </button>
+</div>
+<div class="filter container">
+    <form action="#" method="get" class="filter-form">
+        <div class="filter-block">
+            <label id="filter-category-label">Категория</label>
+            <select aria-labelledby="filter-category-label">
+                <option>Все категории</option>
+            </select>
+        </div>
+        <div class="filter-block">
+            <label id="filter-brand-label">Марка</label>
+            <select aria-labelledby="filter-brand-label">
+                <option>Все марки</option>
+            </select>
+        </div>
+        <div class="in-stock">
+            <label>
+                <input type="checkbox"> в наличии
+            </label>
+        </div>
+        <!--        <div class="filter-block"></div>-->
+        <div class="filter-block">
+            <label id="filter-model-label">Модель</label>
+            <select aria-labelledby="filter-model-label">
+                <option>Все модели</option>
+            </select>
+        </div>
+        <div class="filter-block">
+            <label id="filter-generation-label">Поколение</label>
+            <select aria-labelledby="filter-generation-label">
+                <option>Все поколения</option>
+            </select>
+        </div>
+    </form>
+</div>
+<div class="products container">
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Hyundai Tucson, Kia Sportage 97701-2E300. 21345F 213D 780-02t</div>
+        <div class="bottom">
+            <span class="product-price">110 999 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Nisan, Infinity 701-2E300. 21345F 213D 780-02t 875</div>
+        <div class="bottom">
+            <span class="product-price">100 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Kia Rio, Hyndai 890-02F</div>
+        <div class="bottom">
+            <span class="product-price">99 999 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Audi A4 97701-2E300. 21345F 213D 780-02t</div>
+        <div class="bottom">
+            <span class="product-price">140 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Chevrolet Cruze 97701-0921</div>
+        <div class="bottom">
+            <span class="product-price">89 900 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Hyundai Tucson, Kia Sportage 890-01d; 355F-05se</div>
+        <div class="bottom">
+            <span class="product-price">122 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Hyundai Tucson, Kia Sportage 890-01d; 355F-05se</div>
+        <div class="bottom">
+            <span class="product-price">122 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Nisan, Infinity 701-2E300. 21345F 213D 780-02t 875</div>
+        <div class="bottom">
+            <span class="product-price">100 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Kia Rio, Hyndai 890-02F</div>
+        <div class="bottom">
+            <span class="product-price">99 999 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Audi A4 97701-2E300. 21345F 213D 780-02t</div>
+        <div class="bottom">
+            <span class="product-price">140 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Chevrolet Cruze 97701-0921</div>
+        <div class="bottom">
+            <span class="product-price">89 900 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+    <div class="product-item">
+        <img src="/images/product-cap.png" alt="Изображение товара" class="product-img">
+        <div class="product-name">Компрессор кондиционера Hyundai Tucson, Kia Sportage 890-01d; 355F-05se</div>
+        <div class="bottom">
+            <span class="product-price">122 000 ₸</span>
+            <a href="#" class="btn">Купить</a>
+        </div>
+    </div>
+</div>
+<div class="pages container">
+    <a href="#" class="page-btn active">1</a>
+    <a href="#" class="page-btn">2</a>
+    <a href="#" class="page-btn">3</a>
+    <div class="page-btn empty">...</div>
+    <a href="#" class="page-btn">7</a>
+    <a href="#" class="page-btn next">вперёд</a>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="footer-item">
+            <img src="/images/instagram.svg" alt="Иконка instagram" class="icon">
+            frostauto
+        </div>
+        <div class="footer-item">
+            <img src="/images/mail.svg" alt="Иконка email" class="icon">
+            frostauto@gmail.com
+        </div>
+        <div class="footer-item">
+            <img src="/images/phone.svg" alt="Иконка телефона" class="icon">
+            <div class="content">
+                <div class="top">г. Нур-Султан</div>
+                <div class="bottom">+7 (777) 777-77-77</div>
+            </div>
+        </div>
+        <div class="footer-item">
+            <img src="/images/phone.svg" alt="Иконка телефона" class="icon">
+            <div class="content">
+                <div class="top">г. Алматы</div>
+                <div class="bottom">+7 (777) 777-77-77</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
